@@ -23,6 +23,7 @@ var longestCommonPrefix = function (strs) {
   }
   //   console.log("minLen", minLen);
   var index = 0;
+  // js中的break可以用标签
   outer: while (index < minLen) {
     let char = strs[0][index];
     console.log(index + "char: " + char);
